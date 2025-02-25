@@ -1,7 +1,9 @@
 parameters:
-    level: 2
+    level: 6
     paths:
         - ./aropixel/AdminBundle/src/
+    excludePaths:
+        - ./aropixel/AdminBundle/src/Resources/public
     tmpDir: ./tools/phpstan/var
     inferPrivatePropertyTypeFromConstructor: true
 
