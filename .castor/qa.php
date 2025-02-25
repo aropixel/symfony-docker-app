@@ -45,7 +45,7 @@ function phpstan(): int
         return 1;
     }
 
-    return docker_exit_code('phpstan', workDir: '/var/www');
+    return docker_exit_code('phpstan analyse -cphpstan.neon -aapp/vendor/autoload.php', workDir: '/var/www');
 }
 
 #[AsTask(description: 'Fixes Coding Style', aliases: ['cs'])]
