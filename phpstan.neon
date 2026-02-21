@@ -3,6 +3,7 @@ parameters:
     paths:
         - ./aropixel/AdminBundle/src/
         - ./aropixel/BlogBundle/src/
+        - ./aropixel/PageBundle/src/
     excludePaths:
         - ./aropixel/AdminBundle/src/Resources/public
     tmpDir: ./tools/phpstan/var
