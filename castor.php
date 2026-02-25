@@ -36,7 +36,7 @@ function create_default_variables(): array
     return [
         'project_name' => $projectName,
         'root_domain' => "adminbundle.local",
-        'php_version' => '8.2',
+        'php_version' => '8.4',
         'symfony_version' => '^6.4',
     ];
 }
