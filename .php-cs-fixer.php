@@ -6,9 +6,9 @@ $finder = PhpCsFixer\Finder::create()
     ->ignoreVCSIgnored(true)
     ->ignoreDotFiles(false)
     ->in(__DIR__ . '/aropixel/AdminBundle')
-//    ->in(__DIR__ . '/aropixel/BlogBundle')
-//    ->in(__DIR__ . '/aropixel/MenuBundle')
-//    ->in(__DIR__ . '/aropixel/PageBundle')
+    ->in(__DIR__ . '/aropixel/BlogBundle')
+    ->in(__DIR__ . '/aropixel/MenuBundle')
+    ->in(__DIR__ . '/aropixel/PageBundle')
     ->exclude('Migrations')
     ->append([
         __FILE__,
