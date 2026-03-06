@@ -1,5 +1,11 @@
 # Aropixel Admin Dev Stack
 
+## Philosophy
+
+The `AropixelAdminBundle` is built with a specific philosophy: it is a **toolbox** for developers, not a black-box framework like `EasyAdminBundle`. It provides the framework and tools to build an admin interface quickly while ensuring you retain full control over your code.
+
+As a facilitator, it helps automate repetitive CRUD tasks through a custom `make:crud` generator that starts from your own `FormType`.
+
 ## Before you start coding
 
 ### Requirements
@@ -74,3 +80,8 @@ Start your contributing stack again by running this command:
 ```bash
 castor up
 ```
+
+## Documentation
+
+* [Aropixel Admin Bundle Documentation](aropixel/AdminBundle/doc/index.md)
+* [CRUD Generator Documentation](aropixel/AdminBundle/doc/make_crud.md)
